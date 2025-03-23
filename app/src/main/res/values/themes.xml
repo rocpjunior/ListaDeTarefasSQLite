@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListaDeTarefas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primeiro</item>
+        <item name="colorPrimaryVariant">@color/primeiro_variacao</item>
+        
+        <item name="colorSecondary">@color/segundo</item>
+        <item name="colorSecondaryVariant">@color/segundo_variacao</item>
+
+        <item name="android:windowBackground">@color/white_fundo</item>
+    </style>
+
+    <style name="Theme.ListaDeTarefas" parent="Base.Theme.ListaDeTarefas" />
+</resources>
