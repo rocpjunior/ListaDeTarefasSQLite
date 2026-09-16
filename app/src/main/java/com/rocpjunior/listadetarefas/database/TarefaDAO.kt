@@ -41,7 +41,7 @@ class TarefaDAO(context: Context): ITarefaDAO {
             Log.i("info_db", "Sucesso ao atualizar tarefa =D")
         } catch (e: Exception) {
             e.printStackTrace()
-            Log.i("", "Aconteceu alguma coisa de errado ao atualizar tarefa D=")
+            Log.i("info_db", "Aconteceu alguma coisa de errado ao atualizar tarefa D=")
             return false
         }
         return true
@@ -56,7 +56,7 @@ class TarefaDAO(context: Context): ITarefaDAO {
             Log.i("info_db", "Sucesso ao remover tarefa =D")
         } catch (e: Exception) {
             e.printStackTrace()
-            Log.i("", "Aconteceu alguma coisa de errado ao remover tarefa D=")
+            Log.i("info_db", "Aconteceu alguma coisa de errado ao remover tarefa D=")
             return false
         }
         return true
